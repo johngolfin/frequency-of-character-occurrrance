@@ -1,0 +1,9 @@
+def char_frequency(x):
+    freq = { }
+    for char in x:
+        if char in freq:
+            freq[char] += 1
+        else:
+            freq[char] = 1
+    return freq
+print(char_frequency("honolulu"))
